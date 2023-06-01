@@ -1,0 +1,19 @@
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1.7em;
+
+    flex-basis: 400px;
+    padding: 0 1em;
+}
+
+@media only screen and (min-width: 600px) {
+    .wrapper{
+ 
+       flex-direction: row;
+      // gap: 4.5em;
+      justify-content: space-between;
+    }   
+  }

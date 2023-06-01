@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    place-items: center;
+    padding: 3em 1em;
+
+    background-color: var(--clr-neutral-700);
+    background-image: url(../../assets/img/bg-boost-mobile.svg);
+    background-size: 100% 100%;
+    color: var(--clr-neutral-100);
+}
+.title {
+    margin-top: 0;
+}
+@media only screen and (min-width: 600px) {
+    .container {
+        background-image: url(../../assets/img/bg-boost-desktop.svg);
+    }   
+  }
+
+
+
+

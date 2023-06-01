@@ -1,0 +1,44 @@
+.input {
+    --bdr-clr: transparent;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid var(--bdr-clr);
+    min-height: 2em;
+
+    &Error {
+
+        --bdr-clr: var(--clr-secondary);
+        @extend .input;
+        color: var(--clr-secondary);
+        &::placeholder {
+            color: var(--clr-secondary);
+            opacity: 0.7;
+        }
+    }
+}
+
+.error {
+   // display: block;
+    text-align: left;
+    margin-top: -.1em;
+    color: var(--clr-secondary);
+    font-style: italic;
+    //background-color: #f1f;
+}
+
+@media only screen and (min-width: 600px) {
+    /*  .nav{
+          position: static;
+          background-color: transparent;
+          color: var(--clr-neutral-400);
+          flex-direction: row;
+      }
+
+      .flex {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          
+      }
+*/
+}

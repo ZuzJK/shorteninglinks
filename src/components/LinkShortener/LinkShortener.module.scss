@@ -1,0 +1,25 @@
+::placeholder {
+    //padding-left: 1.5em;
+}
+
+.wrapper {
+    background-image: linear-gradient(var(--clr-neutral-100) 3.2em, var(--clr-neutral-200) 3.2em); 
+}
+
+
+.container {
+    display: grid;
+    gap: 1em;
+    max-width: var(--box-width);
+    margin: 0 auto;
+    padding: 1em;
+    
+}
+
+@media only screen and (min-width: 600px) {
+
+  }
+
+
+
+

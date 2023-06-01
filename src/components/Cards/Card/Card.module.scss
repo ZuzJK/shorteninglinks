@@ -1,0 +1,51 @@
+  @mixin circle($size, $color) {
+    width: $size;
+    height: $size;
+    background-color: $color;
+    border-radius: 50%;
+  } 
+:root {
+    --line--width: 1em;
+    --bottom: calc(var(--icon-size)*-1);
+}
+
+.card {
+    position: relative;
+    padding: 2em 1.8em 1.8em 1.8em;
+    background-color: var(--clr-neutral-100);
+    border-radius: 7px;
+    text-align: center;
+}
+
+.icon {
+    position: absolute;
+    left: 50%;
+    top: calc(var(--icon-size)/2*-1 + 5px); 
+    object-fit: scale-down; 
+    transform: translateX(-50%);
+    @include circle(calc(var(--icon-size) - 1em),var(--clr-primary));
+}
+
+.content {
+    color: var(--clr-neutral-400)
+}
+@media only screen and (min-width: 600px) {
+    .card {
+        &:nth-child(1) {
+            align-self: flex-start;
+        }
+        &:nth-child(2) {
+            align-self: center;
+        }
+        &:nth-child(3) {
+            align-self: flex-end;
+        }
+        text-align: left;
+    }
+    .icon {
+       left: auto;
+       transform: none;
+    }
+  }
+
+  

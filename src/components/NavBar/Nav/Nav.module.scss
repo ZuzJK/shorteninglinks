@@ -1,0 +1,26 @@
+.nav {
+    cursor: pointer;
+}
+.navItem {
+    padding: 1.3em 0;
+    button {
+        width: 100%;
+    }
+}
+.logo {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--clr-neutral-900);
+}
+@media only screen and (min-width: 780px) {
+    .navItem {
+        padding-left: 1em;
+    }
+    .nav {
+        display: inline;
+        &:first-of-type {
+             margin-right: auto;
+         }
+    }
+
+}

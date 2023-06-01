@@ -1,0 +1,18 @@
+.wrapper {
+    position: fixed;
+    width: calc(100% - 2em);
+    background-color: var(--clr-primary);
+    color: var(--clr-neutral-100);
+    margin: .2em 1em;
+    border-radius: 5px;
+    padding: 1em;
+    z-index: 1;
+    nav{
+        ul {
+            display: grid;
+            gap: 1em;
+        }
+    }
+}
+
+hr { background-color: var(--clr-neutral-300); height: 1px; border: 0; }
