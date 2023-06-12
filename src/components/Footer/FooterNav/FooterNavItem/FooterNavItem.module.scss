@@ -1,29 +1,23 @@
-
-.title{
-    margin-top: 0;
-font-size: 1rem;
-
-font-weight: 500;
-}
-
-.list{
-
+.wrapper {
     text-align: center;
-font-weight: 300;
-    font-size: .9rem;
+    font-weight: 300;
+    font-size: .9rem; 
+}
+.title {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.list {
+    color: var(--clr-neutral-300);
+    line-height: 1.8;
+    line-height: 2;
     &Item:hover{
         color: var(--clr-accent);
     }
 }
-
-.a {
-    color: var(--clr-neutral-300);
-    line-height: 1.8;
-    line-height: 2;
-}
 @media only screen and (min-width: 600px) {
-    .list{
- 
+    .wrapper {
         text-align: left;
     }   
   }

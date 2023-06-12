@@ -4,10 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;    
-    
+    align-items:center;   
 }
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -32,16 +30,18 @@
 .content {
     color: var(--clr-neutral-400);
 }
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 680px) {
     :root {
         --icon-gap: calc(var(--icon-size)/4);
     }
     .wrapper {
+        --icon-gap: 2em;
         flex-direction: row;
         flex-basis: 350px;
         background-image: linear-gradient(transparent 41%,
             var(--clr-accent) 41%,
             var(--clr-accent) 43%,
             transparent 43%);
+        padding-bottom: 2em;
     }
   }

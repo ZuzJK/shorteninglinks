@@ -16,8 +16,8 @@ const NavBar = () => {
             <header className={`${styles.flex} ${styles.nav}`}>
                 <h2 className={styles.title}>Shortly</h2>
                 <MenuIcon clickFn={handleClick} 
-                expanded={openMenu} 
-                aria-controls="navigation"/>
+                        expanded={openMenu} 
+                        aria-controls="navigation"/>
                 <div className={`${styles.wrapper}
                 ${
                     openMenu && windowWidth<768 && styles.mobile

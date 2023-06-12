@@ -4,9 +4,9 @@
     background-color: $color;
     border-radius: 50%;
   } 
+  
 :root {
-    --line--width: 1em;
-    --bottom: calc(var(--icon-size)*-1);
+   // --line--width: 1em;
 }
 
 .card {
@@ -16,16 +16,14 @@
     border-radius: 7px;
     text-align: center;
 }
-
 .icon {
     position: absolute;
     left: 50%;
-    top: calc(var(--icon-size)/2*-1 + 5px); 
+    top: calc((100px/-2) + 5px); 
     object-fit: scale-down; 
     transform: translateX(-50%);
     @include circle(calc(var(--icon-size) - 1em),var(--clr-primary));
 }
-
 .content {
     color: var(--clr-neutral-400)
 }
@@ -47,5 +45,3 @@
        transform: none;
     }
   }
-
-  

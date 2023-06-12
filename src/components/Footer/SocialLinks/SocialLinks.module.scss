@@ -1,7 +1,6 @@
 .link{
     &:not(:last-child){
         margin-right: 20px;
-
     }
     &:hover{
         filter:brightness(0) 
@@ -13,16 +12,13 @@
                 brightness(83%) 
                 contrast(94%);
     }
-
     &s {
-    
         padding-top: 2em;
     }
 }
 
 @media only screen and (min-width: 600px) {
     .links {
-     //   flex-direction: column;
         padding-top: 0;
     }   
-  }
+}

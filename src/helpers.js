@@ -4,7 +4,6 @@ export const getData = async (URL, setterItem)=>{
     try {
         const {data: {result: {full_short_link}}} = await axios.get(URL);
         setterItem(full_short_link);
- 
     }
     catch (e) {
         console.log(`Error is ${e}`)

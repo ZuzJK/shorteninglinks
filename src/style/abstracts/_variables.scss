@@ -1,9 +1,7 @@
 :root{
-
-
     --clr-primary: hsl(257, 27%, 26%);
     --clr-secondary: hsl(0, 87%, 67%);
-    --clr-accent: #29cfcf;
+    --clr-accent: hsl(180, 67%, 49%);
   
     --clr-neutral-100: hsl(0, 0%, 100%);
     --clr-neutral-200: hsl(230, 25%, 95%);
@@ -11,9 +9,6 @@
     --clr-neutral-400: hsl(257, 7%, 63%);
     --clr-neutral-700: hsl(255, 11%, 22%);
     --clr-neutral-900: hsl(260, 8%, 14%);
-  
-    
-  
   
     --icon-size: 100px;
     --icon-gap: var(--icon-size);

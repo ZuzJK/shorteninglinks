@@ -23,7 +23,7 @@ const handleChange = e => {
                 placeholder="Shorten a link here..."
                 changeFn={handleChange}
                 />
-                <Button> Shorten it!</Button>
+                <Button>Shorten it!</Button>
             </form> 
         </section>
     );
